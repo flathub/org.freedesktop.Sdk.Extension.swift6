@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.0-release/amazonlinux2/swift-6.0-RELEASE/swift-6.0-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "af4cc6176c86082c59d3ee668a6e612e06db2c1f395a3e6bd42f138ce397cebd"
+                    "url": "https://download.swift.org/swift-6.0.1-release/amazonlinux2/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "08d280647396cc266465949290939950c70f15155f2131358afe4b3d5975fd5e"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.0-release/amazonlinux2-aarch64/swift-6.0-RELEASE/swift-6.0-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "2fb7af015556d3483205449dc8d650098fde4621842983e63bc2af32c2fbaff1"
+                    "url": "https://download.swift.org/swift-6.0.1-release/amazonlinux2-aarch64/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "c315af0eb26f11b3da2143be55876d52003cef9d1741ba835dae8c2153a60610"
                 },
                 {
                     "type": "file",
