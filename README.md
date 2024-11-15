@@ -7,13 +7,13 @@ This extension adds Swift support to Flatpak.
 In order to build your app with tools provided with this extension, you have to set the following variables in your app manifest:
 ```json
 "sdk-extensions": [
-  "org.freedesktop.Sdk.Extension.swift5"
+  "org.freedesktop.Sdk.Extension.swift6"
 ]
 ```
 ```json
 "build-options": {
-  "append-path": "/usr/lib/sdk/swift5/bin",
-  "prepend-ld-library-path": "/usr/lib/sdk/swift5/lib"
+  "append-path": "/usr/lib/sdk/swift6/bin",
+  "prepend-ld-library-path": "/usr/lib/sdk/swift6/lib"
 }
 ```
 
