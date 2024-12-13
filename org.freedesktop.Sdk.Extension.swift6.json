@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.0.1-release/amazonlinux2/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "08d280647396cc266465949290939950c70f15155f2131358afe4b3d5975fd5e"
+                    "url": "https://download.swift.org/swift-6.0.3-release/amazonlinux2/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "21900a068f3cada5236f1c4f041f9af0e320ed0579e9a1b752eb26597c396d38"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.0.1-release/amazonlinux2-aarch64/swift-6.0.1-RELEASE/swift-6.0.1-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "c315af0eb26f11b3da2143be55876d52003cef9d1741ba835dae8c2153a60610"
+                    "url": "https://download.swift.org/swift-6.0.3-release/amazonlinux2-aarch64/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "8dccbd1473d41094546b52f4607784504b4f44d64d634c4c048b8828672a7e50"
                 },
                 {
                     "type": "file",
@@ -46,19 +46,19 @@
             ]
         },
         {
-        "name": "SwiftLint",
-        "buildsystem": "simple",
-        "sources": [
-        {
-            "type": "archive",
-            "url": "https://github.com/realm/SwiftLint/releases/download/0.57.0/swiftlint_linux.zip",
-            "sha256": "def1803e705c738c97fbc275c34e7a2e0278944776a8b9c56ebe8c444ea57407"
-        }
-        ],
-        "build-commands": [
-            "cp swiftlint /usr/lib/sdk/swift6/bin/"
-        ]
-    },
+            "name": "SwiftLint",
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.57.1/swiftlint_linux.zip",
+                    "sha256": "81cb02135897dc982b4d1049dba8510db3e982b0b0e8e138293982d77e4154e0"
+                }
+            ],
+            "build-commands": [
+                "cp swiftlint /usr/lib/sdk/swift6/bin/"
+            ]
+        },
         {
             "name": "swift-format",
             "buildsystem": "simple",
