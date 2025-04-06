@@ -8,23 +8,23 @@
     },
     {
         "type": "git",
-        "url": "https://github.com/apple/swift-cmark.git",
+        "url": "https://github.com/swiftlang/swift-cmark.git",
         "disable-shallow-clone": true,
-        "commit": "3bc2f3e25df0cecc5dc269f7ccae65d0f386f06a",
+        "commit": "b022b08312decdc46585e0b3440d97f6f22ef703",
         "dest": ".build/checkouts/swift-cmark"
     },
     {
         "type": "git",
         "url": "https://github.com/apple/swift-markdown.git",
         "disable-shallow-clone": true,
-        "commit": "4aae40bf6fff5286e0e1672329d17824ce16e081",
+        "commit": "ea79e83c8744d2b50b0dc2d5bbd1e857e1253bf9",
         "dest": ".build/checkouts/swift-markdown"
     },
     {
         "type": "git",
         "url": "https://github.com/swiftlang/swift-syntax.git",
         "disable-shallow-clone": true,
-        "commit": "51eb17afa905b48907620f91ece81249093e6ac7",
+        "commit": "820501e3cf5894ad1deb8de95649b938a8bbe9f4",
         "dest": ".build/checkouts/swift-syntax"
     },
     {
