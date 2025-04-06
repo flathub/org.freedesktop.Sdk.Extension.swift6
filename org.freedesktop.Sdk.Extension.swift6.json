@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.0.3-release/amazonlinux2/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "21900a068f3cada5236f1c4f041f9af0e320ed0579e9a1b752eb26597c396d38"
+                    "url": "https://download.swift.org/swift-6.1-release/amazonlinux2/swift-6.1-RELEASE/swift-6.1-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "6c3350f5b202ded528cb2ab8b2e888e655f4d4b96f926692e19dfe92e5fca933"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.0.3-release/amazonlinux2-aarch64/swift-6.0.3-RELEASE/swift-6.0.3-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "8dccbd1473d41094546b52f4607784504b4f44d64d634c4c048b8828672a7e50"
+                    "url": "https://download.swift.org/swift-6.1-release/amazonlinux2-aarch64/swift-6.1-RELEASE/swift-6.1-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "0aaa0199d60c7bf59614297167ad295fc35b9afdcc6dcf6fb062a33c2bc2334f"
                 },
                 {
                     "type": "file",
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.57.1/swiftlint_linux.zip",
-                    "sha256": "81cb02135897dc982b4d1049dba8510db3e982b0b0e8e138293982d77e4154e0"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.59.0/swiftlint_linux.zip",
+                    "sha256": "88a4df99705ae4b8db304501f55f648ecba9c9c12847865fd17df0e8a445d452"
                 }
             ],
             "build-commands": [
@@ -66,7 +66,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/swiftlang/swift-format.git",
-                    "commit": "65f9da9aad84adb7e2028eb32ca95164aa590e3b"
+                    "commit": "ffbb3225ffda37b62c7283c70e87e8bc7e8e202a"
                 },
                 "generated-sources.json"
             ],
