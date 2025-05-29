@@ -12,6 +12,9 @@
   <developer_name>david-swift</developer_name>
   <update_contact>haenerdavid@icloud.com</update_contact>
   <releases>
+    <release version="6.1.2" date="2025-05-29">
+      <description>Update to Swift 6.1.2.</description>
+    </release>
     <release version="6.1" date="2025-04-06">
       <description>Update to Swift 6.1.</description>
     </release>

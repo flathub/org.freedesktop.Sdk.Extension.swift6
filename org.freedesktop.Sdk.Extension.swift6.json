@@ -11,7 +11,7 @@
     "separate-locales": false,
     "build-options": {
         "prefix": "/usr/lib/sdk/swift6",
-        "prepend-pkg-config-path": "/usr/lib/sdk/swift5/lib/pkgconfig/"
+        "prepend-pkg-config-path": "/usr/lib/sdk/swift6/lib/pkgconfig/"
     },
     "cleanup": [
         "/share/info",
@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.1-release/amazonlinux2/swift-6.1-RELEASE/swift-6.1-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "6c3350f5b202ded528cb2ab8b2e888e655f4d4b96f926692e19dfe92e5fca933"
+                    "url": "https://download.swift.org/swift-6.1.2-release/amazonlinux2/swift-6.1.2-RELEASE/swift-6.1.2-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "3f4b7e2c9219a52fcecb7cb90153f9aacd3da85aa53e75e38dd406c0e9122551"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.1-release/amazonlinux2-aarch64/swift-6.1-RELEASE/swift-6.1-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "0aaa0199d60c7bf59614297167ad295fc35b9afdcc6dcf6fb062a33c2bc2334f"
+                    "url": "https://download.swift.org/swift-6.1.2-release/amazonlinux2-aarch64/swift-6.1.2-RELEASE/swift-6.1.2-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "9441091be33ca5d909337b8795f98e8234a52d79c197c6c015bca4b8994fbc87"
                 },
                 {
                     "type": "file",
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.59.0/swiftlint_linux.zip",
-                    "sha256": "88a4df99705ae4b8db304501f55f648ecba9c9c12847865fd17df0e8a445d452"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.59.1/swiftlint_linux.zip",
+                    "sha256": "d39ce53061f0fd800c54741f5e7878399f7d2d73f841f3f93ce2d91352bee0fb"
                 }
             ],
             "build-commands": [
@@ -66,7 +66,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/swiftlang/swift-format.git",
-                    "commit": "ffbb3225ffda37b62c7283c70e87e8bc7e8e202a"
+                    "commit": "4c2421c14ce852fd455c257b4e8b9cae156302f1"
                 },
                 "generated-sources.json"
             ],

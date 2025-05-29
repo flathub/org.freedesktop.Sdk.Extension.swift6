@@ -3,7 +3,7 @@
         "type": "git",
         "url": "https://github.com/apple/swift-argument-parser.git",
         "disable-shallow-clone": true,
-        "commit": "41982a3656a71c768319979febd796c6fd111d5c",
+        "commit": "011f0c765fb46d9cac61bca19be0527e99c98c8b",
         "dest": ".build/checkouts/swift-argument-parser"
     },
     {
@@ -24,7 +24,7 @@
         "type": "git",
         "url": "https://github.com/swiftlang/swift-syntax.git",
         "disable-shallow-clone": true,
-        "commit": "820501e3cf5894ad1deb8de95649b938a8bbe9f4",
+        "commit": "cbd0366a54a9f8fdaa33834652fb2e80f2948573",
         "dest": ".build/checkouts/swift-syntax"
     },
     {
