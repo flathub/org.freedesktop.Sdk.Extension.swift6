@@ -6,7 +6,11 @@
   <metadata_license>MIT</metadata_license>
   <name>Swift 6</name>
   <summary>Swift 6 compiler and tools for the Flatpak Freedesktop SDK</summary>
-  <description>This extension adds Swift support to Flatpak.</description>
+  <description>
+    <p>
+      This Flatpak SDK Extension adds support for the Swift programming language to Flatpak.
+    </p>
+  </description>
   <project_license>GPL-3.0</project_license>
   <url type="homepage">https://swift.org/</url>
   <developer_name>david-swift</developer_name>
