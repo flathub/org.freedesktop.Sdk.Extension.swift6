@@ -57,6 +57,6 @@
     },
     {
          "type": "file",
-         "path": "setup-offline.sh"
+         "path": "setup-offline-swiftlint.sh"
     }
 ]
