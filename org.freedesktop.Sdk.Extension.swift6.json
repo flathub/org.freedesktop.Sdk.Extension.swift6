@@ -51,12 +51,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.59.1/swiftlint_linux.zip",
-                    "sha256": "d39ce53061f0fd800c54741f5e7878399f7d2d73f841f3f93ce2d91352bee0fb"
-                }
+                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.59.1.zip",
+                    "sha256": "a30fa111a01171cb8463136feea9b97015731bbdaaeacd941cdc88fbdca955e1"
+                },
+                "generated-sources-swiftlint.json"
             ],
             "build-commands": [
-                "cp swiftlint /usr/lib/sdk/swift6/bin/"
+            	"./setup-offline-swiftlint.sh",
+            	"usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
+            	"strip -s .build/release/swiftlint",
+                "cp .build/release/swiftlint /usr/lib/sdk/swift6/bin/"
             ]
         },
         {
