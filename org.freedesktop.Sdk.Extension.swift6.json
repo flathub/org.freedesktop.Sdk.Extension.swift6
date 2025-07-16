@@ -58,7 +58,7 @@
             ],
             "build-commands": [
             	"./setup-offline-swiftlint.sh",
-            	"usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
+            	"/usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
             	"strip -s .build/release/swiftlint",
                 "cp .build/release/swiftlint /usr/lib/sdk/swift6/bin/"
             ]
