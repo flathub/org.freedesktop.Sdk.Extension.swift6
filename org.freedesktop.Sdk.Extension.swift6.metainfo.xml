@@ -6,26 +6,33 @@
   <metadata_license>MIT</metadata_license>
   <name>Swift 6</name>
   <summary>Swift 6 compiler and tools for the Flatpak Freedesktop SDK</summary>
-  <description>This extension adds Swift support to Flatpak.</description>
+  <description>
+    <p>
+      This Flatpak SDK Extension adds support for the Swift programming language to Flatpak.
+    </p>
+  </description>
   <project_license>GPL-3.0</project_license>
   <url type="homepage">https://swift.org/</url>
   <developer_name>david-swift</developer_name>
   <update_contact>haenerdavid@icloud.com</update_contact>
   <releases>
+    <release version="6.1.2-2" date="2025-07-16">
+      <description/>
+    </release>
     <release version="6.1.2" date="2025-05-29">
-      <description>Update to Swift 6.1.2.</description>
+      <description/>
     </release>
     <release version="6.1" date="2025-04-06">
-      <description>Update to Swift 6.1.</description>
+      <description/>
     </release>
     <release version="6.0.3" date="2024-12-13">
-      <description>Update to Swift 6.0.3.</description>
+      <description/>
     </release>
     <release version="6.0.1" date="2024-09-28">
-      <description>Update to Swift 6.0.1.</description>
+      <description/>
     </release>
     <release version="6.0" date="2024-09-19">
-      <description>This is the initial release providing Swift 6.0.</description>
+      <description/>
     </release>
   </releases>
   <categories>
