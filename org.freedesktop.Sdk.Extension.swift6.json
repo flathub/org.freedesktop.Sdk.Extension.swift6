@@ -25,14 +25,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.1.2-release/amazonlinux2/swift-6.1.2-RELEASE/swift-6.1.2-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "3f4b7e2c9219a52fcecb7cb90153f9aacd3da85aa53e75e38dd406c0e9122551"
+                    "url": "https://download.swift.org/swift-6.1.3-release/amazonlinux2/swift-6.1.3-RELEASE/swift-6.1.3-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "adf9f3777c57231c20b868eb706bb04872f8f70e78036d4ed9388a2f003b3167"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.1.2-release/amazonlinux2-aarch64/swift-6.1.2-RELEASE/swift-6.1.2-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "9441091be33ca5d909337b8795f98e8234a52d79c197c6c015bca4b8994fbc87"
+                    "url": "https://download.swift.org/swift-6.1.3-release/amazonlinux2-aarch64/swift-6.1.3-RELEASE/swift-6.1.3-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "04c6ca505881c7fde0531bd49f4c13269886a6ef7e490b64fb35c7050d055c1f"
                 },
                 {
                     "type": "file",
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.59.1.zip",
-                    "sha256": "a30fa111a01171cb8463136feea9b97015731bbdaaeacd941cdc88fbdca955e1"
+                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.61.0.zip",
+                    "sha256": "cfb9ad57bfc699dfa4ef7e301c5ac84817fe64f257676d5775d147b5332bd73f"
                 },
                 "generated-sources-swiftlint.json"
             ],

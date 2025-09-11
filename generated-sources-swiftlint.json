@@ -10,28 +10,28 @@
         "type": "git",
         "url": "https://github.com/krzyzanowskim/CryptoSwift.git",
         "disable-shallow-clone": true,
-        "commit": "729e01bc9b9dab466ac85f21fb9ee2bc1c61b258",
+        "commit": "e45a26384239e028ec87fbcc788f513b67e10d8f",
         "dest": ".build/checkouts/CryptoSwift"
     },
     {
         "type": "git",
         "url": "https://github.com/jpsim/SourceKitten.git",
         "disable-shallow-clone": true,
-        "commit": "eb6656ed26bdef967ad8d07c27e2eab34dc582f2",
+        "commit": "731ffe6a35344a19bab00cdca1c952d5b4fee4d8",
         "dest": ".build/checkouts/SourceKitten"
     },
     {
         "type": "git",
         "url": "https://github.com/apple/swift-argument-parser.git",
         "disable-shallow-clone": true,
-        "commit": "41982a3656a71c768319979febd796c6fd111d5c",
+        "commit": "309a47b2b1d9b5e991f36961c983ecec72275be3",
         "dest": ".build/checkouts/swift-argument-parser"
     },
     {
         "type": "git",
         "url": "https://github.com/swiftlang/swift-syntax.git",
         "disable-shallow-clone": true,
-        "commit": "1103c45ece4f7fe160b8f75b4ea1ee2e5fac1841",
+        "commit": "21b3b45635decd1a0b89968f81b6d9a93128f773",
         "dest": ".build/checkouts/swift-syntax"
     },
     {
@@ -52,7 +52,7 @@
         "type": "git",
         "url": "https://github.com/jpsim/Yams.git",
         "disable-shallow-clone": true,
-        "commit": "b4b8042411dc7bbb696300a34a4bf3ba1b7ad19b",
+        "commit": "d41ba4e7164c0838c6d48351f7575f7f762151fe",
         "dest": ".build/checkouts/Yams"
     },
     {
