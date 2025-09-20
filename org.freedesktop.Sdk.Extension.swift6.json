@@ -5,7 +5,7 @@
     "build-extension": true,
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm18"
+        "org.freedesktop.Sdk.Extension.llvm21"
     ],
     "runtime-version": "25.08",
     "separate-locales": false,
