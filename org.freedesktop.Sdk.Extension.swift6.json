@@ -13,8 +13,7 @@
         "prefix": "/usr/lib/sdk/swift6",
         "prepend-pkg-config-path": "/usr/lib/sdk/swift6/lib/pkgconfig/",
         "prepend-ld-library-path": "/usr/lib/sdk/swift6/lib",
-        "ldflags": "-L/usr/lib/sdk/swift6/lib",
-        "ldflags-override": "true"
+        "ldflags": "-L/usr/lib/sdk/swift6/lib"
     },
     "cleanup": [
         "/share/info",
