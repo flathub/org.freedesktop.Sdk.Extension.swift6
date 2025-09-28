@@ -11,13 +11,31 @@
     "separate-locales": false,
     "build-options": {
         "prefix": "/usr/lib/sdk/swift6",
-        "prepend-pkg-config-path": "/usr/lib/sdk/swift6/lib/pkgconfig/"
+        "prepend-pkg-config-path": "/usr/lib/sdk/swift6/lib/pkgconfig/",
+        "prepend-ld-library-path": "/usr/lib/sdk/swift6/lib",
+        "ldflags": "-L/usr/lib/sdk/swift6/lib",
+        "ldflags-override": "true"
     },
     "cleanup": [
         "/share/info",
         "/share/man"
     ],
     "modules": [
+        {
+            "name": "libxml2",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.9.tar.xz",
+                    "sha256": "a2c9ae7b770da34860050c309f903221c67830c86e4a7e760692b803df95143a"
+                }
+            ],
+            "config-opts": [
+                "--without-python",
+                "--prefix=/usr/lib/sdk/swift6"
+            ]
+        },
         {
             "name": "swift",
             "buildsystem": "simple",
@@ -40,7 +58,6 @@
                 }
             ],
             "build-commands": [
-                "mkdir -p /usr/lib/sdk/swift6",
                 "cp -R usr/* /usr/lib/sdk/swift6",
                 "install -Dm644 org.freedesktop.Sdk.Extension.swift6.metainfo.xml $FLATPAK_DEST/share/metainfo/org.freedesktop.Sdk.Extension.swift6.metainfo.xml"
             ]
