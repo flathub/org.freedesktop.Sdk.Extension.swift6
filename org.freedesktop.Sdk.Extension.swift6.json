@@ -86,7 +86,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/swiftlang/swift-format/archive/refs/tags/602.0.0.zip",
-                    "sha256": "8009eacb55d7923a7bff89bd9730560a2691162bcecaa912c155bc3ea1120a24"
+                    "sha256": "e0ce7eecc5e2c96e0efba9acb7e03eb592ddfe18b3f9fbe3260f3d55a4afb3ef"
                 },
                 "generated-sources.json"
             ],
