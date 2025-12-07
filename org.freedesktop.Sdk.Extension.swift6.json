@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.9.tar.xz",
-                    "sha256": "a2c9ae7b770da34860050c309f903221c67830c86e4a7e760692b803df95143a"
+                    "url": "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.0.tar.xz",
+                    "sha256": "5abc766497c5b1d6d99231f662e30c99402a90d03b06c67b62d6c1179dedd561"
                 }
             ],
             "config-opts": [
@@ -42,14 +42,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.2-release/amazonlinux2/swift-6.2-RELEASE/swift-6.2-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "132a3c533cc92d49b14dc0c2f65b4b1056af5fc45a37e0c6828e7ec7b9488753"
+                    "url": "https://download.swift.org/swift-6.2.1-release/amazonlinux2/swift-6.2.1-RELEASE/swift-6.2.1-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "218fc55ba7224626fd25f8ca285b083fda020e3737146e2fe10b8ae9aaf2ae97"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.2-release/amazonlinux2-aarch64/swift-6.2-RELEASE/swift-6.2-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "dbd63ae19f3404cf9007ff650798e00b7fa47f128dafca2454461b4143ac6d98"
+                    "url": "https://download.swift.org/swift-6.2.1-release/amazonlinux2-aarch64/swift-6.2.1-RELEASE/swift-6.2.1-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "00999039a82a81b1e9f3915eb2c78b63552fe727bcbfe9a2611628ac350287f2"
                 },
                 {
                     "type": "file",
@@ -67,15 +67,15 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.61.0.zip",
-                    "sha256": "cfb9ad57bfc699dfa4ef7e301c5ac84817fe64f257676d5775d147b5332bd73f"
+                    "url": "https://github.com/realm/SwiftLint/archive/refs/tags/0.62.2.zip",
+                    "sha256": "8009eacb55d7923a7bff89bd9730560a2691162bcecaa912c155bc3ea1120a24"
                 },
                 "generated-sources-swiftlint.json"
             ],
             "build-commands": [
-            	"./setup-offline-swiftlint.sh",
-            	"/usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
-            	"strip -s .build/release/swiftlint",
+                	"./setup-offline-swiftlint.sh",
+                	"/usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
+                	"strip -s .build/release/swiftlint",
                 "cp .build/release/swiftlint /usr/lib/sdk/swift6/bin/"
             ]
         },
@@ -84,9 +84,9 @@
             "buildsystem": "simple",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/swiftlang/swift-format.git",
-                    "commit": "62eaad2822b865407b8cde56c36386c00800f7ec"
+                    "type": "archive",
+                    "url": "https://github.com/swiftlang/swift-format/archive/refs/tags/602.0.0.zip",
+                    "sha256": "8009eacb55d7923a7bff89bd9730560a2691162bcecaa912c155bc3ea1120a24"
                 },
                 "generated-sources.json"
             ],

@@ -24,14 +24,14 @@
         "type": "git",
         "url": "https://github.com/apple/swift-argument-parser.git",
         "disable-shallow-clone": true,
-        "commit": "309a47b2b1d9b5e991f36961c983ecec72275be3",
+        "commit": "cdd0ef3755280949551dc26dee5de9ddeda89f54",
         "dest": ".build/checkouts/swift-argument-parser"
     },
     {
         "type": "git",
         "url": "https://github.com/swiftlang/swift-syntax.git",
         "disable-shallow-clone": true,
-        "commit": "21b3b45635decd1a0b89968f81b6d9a93128f773",
+        "commit": "6673b05995983461eef015c4768f1483c245db22",
         "dest": ".build/checkouts/swift-syntax"
     },
     {
@@ -52,7 +52,7 @@
         "type": "git",
         "url": "https://github.com/jpsim/Yams.git",
         "disable-shallow-clone": true,
-        "commit": "d41ba4e7164c0838c6d48351f7575f7f762151fe",
+        "commit": "51b5127c7fb6ffac106ad6d199aaa33c5024895f",
         "dest": ".build/checkouts/Yams"
     },
     {
