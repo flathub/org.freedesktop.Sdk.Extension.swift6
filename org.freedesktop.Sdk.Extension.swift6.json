@@ -42,14 +42,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.2.3-release/amazonlinux2/swift-6.2.3-RELEASE/swift-6.2.3-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "fe1513e441ab653a134f9fd35855fe5dddac5fa716c0b0fe119eb76757525f05"
+                    "url": "https://download.swift.org/swift-6.2.4-release/amazonlinux2/swift-6.2.4-RELEASE/swift-6.2.4-RELEASE-amazonlinux2.tar.gz",
+                    "sha256": "969b1241a3fd9aa446cb47c1b2e4a7c72a54df9d48ec6f65aed09549095a71f5"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.2.3-release/amazonlinux2-aarch64/swift-6.2.3-RELEASE/swift-6.2.3-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "0753ec4fb786c626a681803c25ea3c681df583f0f576a6e326a25bd92294b4c6"
+                    "url": "https://download.swift.org/swift-6.2.4-release/amazonlinux2-aarch64/swift-6.2.4-RELEASE/swift-6.2.4-RELEASE-amazonlinux2-aarch64.tar.gz",
+                    "sha256": "41fa73da20451831b29ddd989d0828f31f7b7e51633cf59249566f356e2b0ca1"
                 },
                 {
                     "type": "file",
@@ -68,14 +68,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.62.2/swiftlint_linux_amd64.zip",
-                    "sha256": "d44e21c234cded72e1735abb32e8c641fadaf60270ef49ea6abf979a47a31deb"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.63.2/swiftlint_linux_amd64.zip",
+                    "sha256": "dd1017cfd20a1457f264590bcb5875a6ee06cd75b9a9d4f77cd43a552499143b"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.62.2/swiftlint_linux_arm64.zip",
-                    "sha256": "a90ea84be3675e787c5784e46dcb5d173a3bf0b35b4f4e9e455d7b8eb728947e"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.63.2/swiftlint_linux_arm64.zip",
+                    "sha256": "104dedff762157f5cff7752f1cc2a289b60f3ea677e72d651c6f3a3287fdd948"
                 }
             ],
             "build-commands": [

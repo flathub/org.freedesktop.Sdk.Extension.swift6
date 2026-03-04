@@ -3,21 +3,21 @@
         "type": "git",
         "url": "https://github.com/apple/swift-argument-parser.git",
         "disable-shallow-clone": true,
-        "commit": "309a47b2b1d9b5e991f36961c983ecec72275be3",
+        "commit": "c5d11a805e765f52ba34ec7284bd4fcd6ba68615",
         "dest": ".build/checkouts/swift-argument-parser"
     },
     {
         "type": "git",
         "url": "https://github.com/swiftlang/swift-cmark.git",
         "disable-shallow-clone": true,
-        "commit": "b97d09472e847a416629f026eceae0e2afcfad65",
+        "commit": "5d9bdaa4228b381639fff09403e39a04926e2dbe",
         "dest": ".build/checkouts/swift-cmark"
     },
     {
         "type": "git",
         "url": "https://github.com/apple/swift-markdown.git",
         "disable-shallow-clone": true,
-        "commit": "d8cf111c276ed18cff82d3cad563d2ca5903b982",
+        "commit": "7d9a5ce307528578dfa777d505496bd5f544ad94",
         "dest": ".build/checkouts/swift-markdown"
     },
     {
