@@ -43,13 +43,13 @@
                     "type": "archive",
                     "only-arches": ["x86_64"],
                     "url": "https://download.swift.org/swift-6.3.1-release/amazonlinux2/swift-6.3.1-RELEASE/swift-6.3.1-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "969b1241a3fd9aa446cb47c1b2e4a7c72a54df9d48ec6f65aed09549095a71f5"
+                    "sha256": "1dfa4a000d7cd5565cae340be8feeb342f5c3caa735a0dec67391c2d2e1370c9"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
                     "url": "https://download.swift.org/swift-6.3.1-release/amazonlinux2-aarch64/swift-6.3.1-RELEASE/swift-6.3.1-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "41fa73da20451831b29ddd989d0828f31f7b7e51633cf59249566f356e2b0ca1"
+                    "sha256": "c6847f4eb89cb6f4faae1695f7b63b276b26aae5fd57dc22ebf968b48c797857"
                 },
                 {
                     "type": "file",
