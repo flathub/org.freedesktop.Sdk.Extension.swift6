@@ -16,6 +16,9 @@
   <developer_name>david-swift</developer_name>
   <update_contact>haenerdavid@icloud.com</update_contact>
   <releases>
+    <release version="6.3.3" date="2026-07-04">
+      <description />
+    </release>
     <release version="6.3.1" date="2026-05-30">
       <description />
     </release>
