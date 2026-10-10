@@ -42,14 +42,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.3.3-release/amazonlinux2/swift-6.3.3-RELEASE/swift-6.3.3-RELEASE-amazonlinux2.tar.gz",
-                    "sha256": "ece8c60b48b52e589f144462e247617b6ea0ce9f85dbd3d12907cf1821e20c20"
+                    "url": "https://download.swift.org/swift-6.4.0-release/fedora41/swift-6.4.0-RELEASE/swift-6.4.0-RELEASE-fedora41.tar.gz",
+                    "sha256": "15705cee4a7fc1709eb91a83e1e81c5f082391f7884f1d2dd3fa475824b74acb"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.3.3-release/amazonlinux2-aarch64/swift-6.3.3-RELEASE/swift-6.3.3-RELEASE-amazonlinux2-aarch64.tar.gz",
-                    "sha256": "ea7258ee30ccf21e8d20a007c41156be997ab558954c5ab12915c7a4fbcbc89e"
+                    "url": "https://download.swift.org/swift-6.4.0-release/fedora41-aarch64/swift-6.4.0-RELEASE/swift-6.4.0-RELEASE-fedora41-aarch64.tar.gz",
+                    "sha256": "ca1088186e3a3b278854b4f5b3d6975e5846d06748b1109ab259a959a5431f86"
                 },
                 {
                     "type": "file",
@@ -68,14 +68,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.65.0/swiftlint_linux_amd64.zip",
-                    "sha256": "79306a34e5c7cc55a220cd108cbb861dcad5f10138dcdf261e2624ae8b0a486b"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.65.1/swiftlint_linux_amd64.zip",
+                    "sha256": "caeed6f4a679c35539ffaf124f6c4ab4a8416917f7d8796279dc52b74026059d"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://github.com/realm/SwiftLint/releases/download/0.65.0/swiftlint_linux_arm64.zip",
-                    "sha256": "12d3b84bc5b69ae13a99a5a5c79904f9ce25867f099f6368d0037854f9ee6c26"
+                    "url": "https://github.com/realm/SwiftLint/releases/download/0.65.1/swiftlint_linux_arm64.zip",
+                    "sha256": "9ffa52f478e6d8eb485d37d14715ffac90abc81c58f3370d598bf75be05605f8"
                 }
             ],
             "build-commands": [
@@ -88,14 +88,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/swiftlang/swift-format/archive/refs/tags/603.0.0.zip",
-                    "sha256": "8feae2b85a2ffd82a87f7f49457b4158686d59c35585c02394cf22678aa139f8"
+                    "url": "https://github.com/swiftlang/swift-format/archive/refs/tags/604.0.0.zip",
+                    "sha256": "6edb8941c0aa216e26bf7ff1d6ef54a76241e222597216e8b6d9f684bb9bca16"
                 },
                 "generated-sources.json"
             ],
             "build-commands": [
                 "./setup-offline.sh",
-                "/usr/lib/sdk/swift6/bin/swift build -c release --skip-update",
+                "/usr/lib/sdk/swift6/bin/swift build -c release --skip-update --build-system native",
                 "strip -s .build/release/swift-format",
                 "cp .build/release/swift-format /usr/lib/sdk/swift6/bin/"
             ]
