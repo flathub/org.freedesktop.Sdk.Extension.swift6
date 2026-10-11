@@ -12,8 +12,8 @@ In order to build your app with tools provided with this extension, you have to 
 ```
 ```json
 "build-options": {
-  "append-path": "/usr/lib/sdk/swift6/bin",
-  "prepend-ld-library-path": "/usr/lib/sdk/swift6/lib"
+  "append-path": "/usr/lib/sdk/swift6/usr/bin",
+  "prepend-ld-library-path": "/usr/lib/sdk/swift6/usr/lib"
 }
 ```
 
