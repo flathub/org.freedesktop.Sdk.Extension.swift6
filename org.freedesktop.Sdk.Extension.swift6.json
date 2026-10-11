@@ -11,9 +11,9 @@
     "separate-locales": false,
     "build-options": {
         "prefix": "/usr/lib/sdk/swift6",
-        "prepend-pkg-config-path": "/usr/lib/sdk/swift6/lib/pkgconfig/",
-        "prepend-ld-library-path": "/usr/lib/sdk/swift6/lib",
-        "ldflags": "-L/usr/lib/sdk/swift6/lib"
+        "prepend-pkg-config-path": "/usr/lib/sdk/swift6/usr/lib/pkgconfig/",
+        "prepend-ld-library-path": "/usr/lib/sdk/swift6/usr/lib",
+        "ldflags": "-L/usr/lib/sdk/swift6/usr/lib"
     },
     "cleanup": [
         "/share/info",
@@ -32,7 +32,7 @@
             ],
             "config-opts": [
                 "--without-python",
-                "--prefix=/usr/lib/sdk/swift6"
+                "--prefix=/usr/lib/sdk/swift6/usr"
             ]
         },
         {
@@ -57,7 +57,7 @@
                 }
             ],
             "build-commands": [
-                "cp -R usr/* /usr/lib/sdk/swift6",
+                "cp -R usr /usr/lib/sdk/swift6/",
                 "install -Dm644 org.freedesktop.Sdk.Extension.swift6.metainfo.xml $FLATPAK_DEST/share/metainfo/org.freedesktop.Sdk.Extension.swift6.metainfo.xml"
             ]
         },
@@ -79,7 +79,7 @@
                 }
             ],
             "build-commands": [
-                "cp swiftlint /usr/lib/sdk/swift6/bin/"
+                "cp swiftlint /usr/lib/sdk/swift6/usr/bin/"
             ]
         },
         {
@@ -95,9 +95,9 @@
             ],
             "build-commands": [
                 "./setup-offline.sh",
-                "/usr/lib/sdk/swift6/bin/swift build -c release --skip-update --build-system native",
+                "/usr/lib/sdk/swift6/usr/bin/swift build -c release --skip-update",
                 "strip -s .build/release/swift-format",
-                "cp .build/release/swift-format /usr/lib/sdk/swift6/bin/"
+                "cp .build/release/swift-format /usr/lib/sdk/swift6/usr/bin/"
             ]
         }
     ]
