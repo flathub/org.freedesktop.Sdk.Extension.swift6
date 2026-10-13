@@ -97,7 +97,9 @@
                 "./setup-offline.sh",
                 "/usr/lib/sdk/swift6/usr/bin/swift build -c release --skip-update",
                 "strip -s .build/release/swift-format",
-                "cp .build/release/swift-format /usr/lib/sdk/swift6/usr/bin/"
+                "cp .build/release/swift-format /usr/lib/sdk/swift6/usr/bin/",
+                "ln -s /usr/lib/sdk/swift6/usr/bin /usr/lib/sdk/swift6/bin",
+                "ln -s /usr/lib/sdk/swift6/usr/lib /usr/lib/sdk/swift6/lib",
             ]
         }
     ]
