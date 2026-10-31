@@ -42,14 +42,14 @@
                 {
                     "type": "archive",
                     "only-arches": ["x86_64"],
-                    "url": "https://download.swift.org/swift-6.4.1-release/fedora41/swift-6.4.1-RELEASE/swift-6.4.1-RELEASE-fedora41.tar.gz",
-                    "sha256": "3be42332d7a38baca4a90ccab77257a31a2f94bf062fd37f41b3255f5e09867b"
+                    "url": "https://download.swift.org/swift-6.4.2-release/fedora41/swift-6.4.2-RELEASE/swift-6.4.2-RELEASE-fedora41.tar.gz",
+                    "sha256": "48168cdae669b62a9f6d9a8569e152edb51ceecb58b7bf50012e8c8beb056621"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
-                    "url": "https://download.swift.org/swift-6.4.1-release/fedora41-aarch64/swift-6.4.1-RELEASE/swift-6.4.1-RELEASE-fedora41-aarch64.tar.gz",
-                    "sha256": "9565a61e898fd6a875efada8dc311b728dd150c06e75c8239c6ca34cee8470db"
+                    "url": "https://download.swift.org/swift-6.4.2-release/fedora41-aarch64/swift-6.4.2-RELEASE/swift-6.4.2-RELEASE-fedora41-aarch64.tar.gz",
+                    "sha256": "7bd70958b48e615550043051d6e6b119aad6ac255b795878d2c32a87dd3cac0c"
                 },
                 {
                     "type": "file",
