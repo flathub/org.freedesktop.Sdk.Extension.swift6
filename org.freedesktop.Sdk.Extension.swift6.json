@@ -43,13 +43,13 @@
                     "type": "archive",
                     "only-arches": ["x86_64"],
                     "url": "https://download.swift.org/swift-6.4.3-release/fedora41/swift-6.4.3-RELEASE/swift-6.4.3-RELEASE-fedora41.tar.gz",
-                    "sha256": "48168cdae669b62a9f6d9a8569e152edb51ceecb58b7bf50012e8c8beb056621"
+                    "sha256": "689d6d568fcff9d9c0ff724c8884d52704f828028d4a82dd16d63f42e69bf48b"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
                     "url": "https://download.swift.org/swift-6.4.3-release/fedora41-aarch64/swift-6.4.3-RELEASE/swift-6.4.3-RELEASE-fedora41-aarch64.tar.gz",
-                    "sha256": "7bd70958b48e615550043051d6e6b119aad6ac255b795878d2c32a87dd3cac0c"
+                    "sha256": "c6b2537047370fa7db373480b8c9eea444157e750316f05789bce840eb2c5e42"
                 },
                 {
                     "type": "file",
@@ -69,13 +69,13 @@
                     "type": "archive",
                     "only-arches": ["x86_64"],
                     "url": "https://github.com/realm/SwiftLint/releases/download/0.65.1/swiftlint_linux_amd64.zip",
-                    "sha256": "689d6d568fcff9d9c0ff724c8884d52704f828028d4a82dd16d63f42e69bf48b"
+                    "sha256": "caeed6f4a679c35539ffaf124f6c4ab4a8416917f7d8796279dc52b74026059d"
                 },
                 {
                     "type": "archive",
                     "only-arches": ["aarch64"],
                     "url": "https://github.com/realm/SwiftLint/releases/download/0.65.1/swiftlint_linux_arm64.zip",
-                    "sha256": "c6b2537047370fa7db373480b8c9eea444157e750316f05789bce840eb2c5e42"
+                    "sha256": "9ffa52f478e6d8eb485d37d14715ffac90abc81c58f3370d598bf75be05605f8"
                 }
             ],
             "build-commands": [
